@@ -1,0 +1,54 @@
+<?php
+
+global $_LANG;
+$_LANG = array();
+$_LANG['404_44b1d05764b093cb00c25b8228cb87d3'] = 'Cette page n\'est pas disponible';
+$_LANG['404_6554aae881e40036cac1f5710a4c52c1'] = 'Désolé, l\'adresse URL que vous recherchez n\'est plus disponible.';
+$_LANG['404_7b19b37e7fc3dfe3c3e1ad5b84c7f565'] = 'Page d\'accueil';
+$_LANG['404_8cf04a9734132302f96da8e113e80ce5'] = 'Accueil';
+$_LANG['404_9bec38acab82302a8cf6fbb9182da21f'] = 'Pour trouver un produit, vous pouvez rechercher dans le champ ci-dessous.';
+$_LANG['404_a68ba7d969d1294a35138fa501dfb078'] = 'Rechercher un produit dans notre catalogue:';
+$_LANG['best-sales_3cb29f0ccc5fd220a97df89dafe46290'] = 'Meilleures ventes';
+$_LANG['breadcrumb_56cf8b33ab527ab81b4f6b3ceac090dd'] = 'Retour à l\'accueil';
+$_LANG['category-count_79ac892bd1769d83ef1c16dae9f4eddd'] = 'Il y a 1 produit.';
+$_LANG['category-count_a9d48596a6537347711527bab8fcd152'] = 'Il y a %d produits.';
+$_LANG['category-count_ff32f7dba36bcd6d0a4214cd80253c3a'] = 'Il n\'y a pas de produit dans cette catégorie';
+$_LANG['category_2f4e54ec9bebe1122b5c23217e764828'] = 'Cette catégorie n\'est pas disponible';
+$_LANG['category_d3da97e2d9aee5c8fbe03156ad051c99'] = 'Voir plus';
+$_LANG['category_f73cc399b5ce12735a57f03414f09ef9'] = 'Sous-catégorie';
+$_LANG['cms_0557fa923dcee4d0f86b1409f5c2167f'] = 'Retour';
+$_LANG['errors_0557fa923dcee4d0f86b1409f5c2167f'] = 'Retour';
+$_LANG['global_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Suivant';
+$_LANG['global_d3d2e617335f08df83599665eef8a418'] = 'Fermer';
+$_LANG['global_dd1f775e443ff3b9a89270713580a51b'] = 'Précédent';
+$_LANG['nbr-product-page_498f79c4c5bbde77f1bceb6c86fd0f6d'] = 'Montrer';
+$_LANG['nbr-product-page_4f5d5f295ddc8fd8673e74dd5fbe114a'] = 'par page';
+$_LANG['new-products_9ff0635f5737513b1a6f559ac2bff745'] = 'Nouveaux produits';
+$_LANG['new-products_d58424783355b6da2dedc302f2bf4065'] = 'Pas de nouveau produit';
+$_LANG['pagination_08d8f2394d17064e1c505e3d6ef7ef12'] = 'Montre %1$d - %2$d des %3$d produits';
+$_LANG['pagination_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Suivant';
+$_LANG['pagination_89762ea29386643afc3fc50e7e50b53c'] = 'Montre %1$d - %2$d de 1 produit';
+$_LANG['pagination_dd1f775e443ff3b9a89270713580a51b'] = 'Précédent';
+$_LANG['pagination_eb92025cb8c66f1850c13a9b602a1856'] = 'Montrer tout';
+$_LANG['product-list_03c2e7e41ffc181a4e84080b4710e81e'] = 'Nouveau';
+$_LANG['product-list_2d0f6b8300be19cf35e89e66f0677f95'] = 'Ajouter au panier';
+$_LANG['product-list_4351cfebe4b61d8aa5efa1d020710005'] = 'Voir';
+$_LANG['product-list_69d08bd5f8cf4e228930935c3f13e42f'] = 'En stock';
+$_LANG['product-list_c91e4ee170226d66e90f99ba917e4c20'] = 'Vue rapide';
+$_LANG['product-list_d3da97e2d9aee5c8fbe03156ad051c99'] = 'Voir plus';
+$_LANG['product-sort_33d8042bd735c559cc3206f4bc99aedc'] = 'Trier par';
+$_LANG['product-sort_4ee29ca12c7d126654bd0e5275de6135'] = 'Liste';
+$_LANG['product-sort_5174d1309f275ba6f275db3af9eb3e18'] = 'Grille';
+$_LANG['product-sort_df25de42c84837baf5fa15049a8bc764'] = 'Vue:';
+$_LANG['scenes_03c2e7e41ffc181a4e84080b4710e81e'] = 'Nouveau';
+$_LANG['scenes_d3d2e617335f08df83599665eef8a418'] = 'Fermer';
+$_LANG['search_05cf990f79d935b0ea6105855adef686'] = 'Retourner à la page précédente';
+$_LANG['search_13348442cc6a27032d2b4aa28b75a5d3'] = 'Recherche';
+$_LANG['search_3a93aed43691aed28d2ce3a53d3c63f8'] = '%d résultats trouvés';
+$_LANG['search_a09e4037d02313230a191007246e1694'] = '%d résultats trouvés';
+$_LANG['search_a4bb6bf91165c149d73930f43ad4ef69'] = 'Entrez un mot clé';
+$_LANG['search_b2c56c8b57680e576c61c1b5df0d0c2d'] = 'Aucun résultat trouvé';
+$_LANG['stores_34c869c542dee932ef8cd96d2f91cae6'] = 'Nos magasins';
+$_LANG['stores_e72dca5d5a8a4706a206f3225324bf44'] = 'Nom de la boutique';
+
+?>

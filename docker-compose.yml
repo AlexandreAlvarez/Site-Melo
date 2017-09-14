@@ -1,0 +1,49 @@
+version: '2.0'
+
+services:
+  web:
+    build:
+      context: docker/apache-php5.6
+    volumes:
+      - .:/var/www/html/
+    links:
+      - mysql
+      - maildev  
+    networks:
+      - traefik
+    labels:
+       - "traefik.frontend.rule=Host:www.prestashop.local"
+
+  mysql:
+    image: mysql
+    environment:
+      - MYSQL_DATABASE=prestashop
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+    volumes:
+      - /tmp:/tmp
+      - ./docker/db:/var/lib/mysql
+    networks:
+      - traefik
+
+  maildev:
+    image: djfarrelly/maildev
+    labels:
+       - "traefik.frontend.rule=Host:mail.prestashop.local"
+       - "traefik.port=80"
+    networks:
+      - traefik
+
+  pma:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - mysql:db
+    networks:
+      - traefik
+    labels:
+       - "traefik.frontend.rule=Host:pma.prestashop.local"
+
+networks:
+  traefik:
+    external:
+      name: traefik_webgateway
+
